@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'MADCC' do
+pod 'Firebase/Crash'
+pod 'Firebase/Messaging'    
+pod 'Firebase'
+pod 'SwiftSpinner'
+pod 'Fabric'
+pod 'TwitterKit'
+pod 'TwitterCore'
+pod 'Canvas'
+pod 'RAMAnimatedTabBarController', '~> 1.2.2'
+
+end

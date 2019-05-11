@@ -1,0 +1,1233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAE4D7ADACD9E959A9B4140CB69E4D7 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090EECF5111EFED74BFA259C4E91F23F /* Pods-MADCC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE244CD657BCFDA3AB38667C7551E88 /* Pods-MADCC-dummy.m */; };
+		0AE2ADEE5E614C0951963B302350EA7E /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C357F2436B32D1338575DB4E4C5B73B /* RAMTransitionItemAnimations.swift */; };
+		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2335F39407B2217D88AC621EAAAE96AE /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCAA259FA8CD0BD9F6B4C205A266F /* UINavigationBar+TCCustomFont.m */; };
+		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C7AC298897219234490EA7FA3770A7 /* UITextField+PlaceholderColor.m */; };
+		2224645A7E0042C9FF5E0EEBF4FC16D4 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0115FEEB86A68AFF5E548A8E6D8C6B /* RAMBounceAnimation.swift */; };
+		22AA150ED9B7E30BDAB3DA9E1A3C388F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5945B3518D839F18A764A6EAA075D5 /* CSAnimationView.m */; };
+		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 967494A57FCC8A8553F25BFD2AD6D42C /* UITextView+TCCustomFont.m */; };
+		45423C1A8B7354EC1EE0A1BE17675E7D /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17708E53D8F8721038912F14DE928ADA /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9B05CD4842152E696F9C6707534EC4 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 860E2F5117E5B30B9B9460CFA1558682 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B1B5D32995B4B9E23C813ACC34051 /* UIButton+TCCustomFont.m */; };
+		5FC6E750F4551FF7FABCDCA5AB98DC8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5874F1F19AEC8D5C3FA43DDBD03AE /* CSNavigationController.m */; };
+		6B6AE2F2F692CF9F87A0B571E7DF2B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A562C93752D2D3BE87C11C0B0A80EE /* UITextField+TCCustomFont.m */; };
+		7AA364669CD2579D221BC924EE316041 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097717A2907113F004042C5CF74C903F /* SwiftSpinner.swift */; };
+		7B96D78C0EC6E9B734C29F1EB10F479A /* Pods-MADCC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEA73E0C87CA1650EB4691BC749705A /* Pods-MADCC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99128AF804D18935EEA84E582F66976D /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC5449C3BE5C3E3984B9C30F6A8BFF /* RAMRotationAnimation.swift */; };
+		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B0799E4A9112C83DF3112D61DB4154C4 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A102D40FB580C861EA33DA6706C3930B /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA7459865A29B04BA3E5B9F76449C6 /* RAMFumeAnimation.swift */; };
+		B204938BA180FDE600A6D6673A346A3B /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09396E1BD89A9C0CB215D12FD810EA /* RAMItemAnimationProtocol.swift */; };
+		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 602814A1F2072313DD249A68FC232A97 /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D94A598B1C907159A4E1B38C073C59 /* CSBlurView.m */; };
+		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2757AB881B277B4A0B4E39A374E66 /* Canvas-dummy.m */; };
+		B8177C9C855257D6F67D3FD2FA4CBB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C19F6EBBE1943D47C17A58E5E16564A /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0DD4DFF5BF90CFEFB3A985B2F2D453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		BD91C0A6411AE4C0C1CDB2D5C6D25AA3 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9379EF817D498920D27679A44BCB74 /* RAMAnimatedTabBarController-dummy.m */; };
+		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3EFCAA9D899C11DFAAB49AE1EA98D /* UILabel+TCCustomFont.m */; };
+		BEDC28028D2CCF4EAEF03ABB425A7E50 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE946918CF75A87CD0C6A3D54CEADF /* RAMFrameItemAnimation.swift */; };
+		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A59A03D7B02FFC89FEC5C6EC1B25A0F /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = BE45BDDC7ECFB2F297C3F5EFE1956692 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428646738A5DE48CFF0F3727DBC968D /* CSAnimation.m */; };
+		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 61134A10A3C304349AB3ECF98BEFAC8D /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD162269F522359594A971CDEDB91C49 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 197BBC070D94EA268749A65BADB7C664 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B5C008D93D8D53EFFBFA0C93A3B6B3 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EC04CE9EC490DA73604B70C5F2EF98 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78E3CFB062D06E4B14CA19F18BBB98 /* RAMAnimatedTabBarController.swift */; };
+		F2C1C3CF7C8BBCE724349FEABBCF824F /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF919B077B3A2F383C2BFBD3AEB0FC73 /* RAMBadge.swift */; };
+		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F24CE66EE54BB116426C280D45D832 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B8853EE33880DF210FC76D3BAE2F7F /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6464C12F42DB7B7BF76CDB6B842A3 /* SwiftSpinner-dummy.m */; };
+		FCE6F965F9B582257167246431B2A949 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73505681C6191AC970CCBDA7BFDBDBA0 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DA5F5FFA40B9D66C4D9A9F79265A10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6497E6E7D485D7D0D7E0CD8E84BFCD4;
+			remoteInfo = Canvas;
+		};
+		C0C3D6242D232A96CD2439AC74D0B5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8301AC88ECCE71344717B356075A904E;
+			remoteInfo = SwiftSpinner;
+		};
+		EBA9DE760D2299C850B92C2B40C4D879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639F9C248EDB5723A10E11BF49E70283;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B5C008D93D8D53EFFBFA0C93A3B6B3 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		06CCF1932694B632796BC69A834E2EAC /* Pods-MADCC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MADCC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		097717A2907113F004042C5CF74C903F /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		0CFA3DF1452CF3F626AB87F4DC72242C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0D5945B3518D839F18A764A6EAA075D5 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		0E9B6FB832B8915ABBDCF561BC720976 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		0FE244CD657BCFDA3AB38667C7551E88 /* Pods-MADCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MADCC-dummy.m"; sourceTree = "<group>"; };
+		1219B45B665FBA0BE9C2379C9FD758B0 /* Pods-MADCC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MADCC.modulemap"; sourceTree = "<group>"; };
+		1588F848ADBAE7C3467C1ECEDE5F356B /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		167D7482DD2840DEB817FBF49DDD1B29 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		17708E53D8F8721038912F14DE928ADA /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		197BBC070D94EA268749A65BADB7C664 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		1E19B6AA0AC600B7EC332ADA671361CD /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0115FEEB86A68AFF5E548A8E6D8C6B /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		2335F39407B2217D88AC621EAAAE96AE /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		2710B8BE8017E62A44A6607E39728231 /* Pods-MADCC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MADCC-frameworks.sh"; sourceTree = "<group>"; };
+		2714B97B01BF0BEC3B36352E421C1638 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		2850DD525E6A2F90915CCD522A8E0E64 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		2A09396E1BD89A9C0CB215D12FD810EA /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		2C357F2436B32D1338575DB4E4C5B73B /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		2EFBBC7A547CC022F09850AEF2001234 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		2F8923F9811D7B33B4CFC7ED026ED8AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371B1B5D32995B4B9E23C813ACC34051 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		3A59A03D7B02FFC89FEC5C6EC1B25A0F /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		467369EF5AB8A2E7526913AE0AD69C57 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		479C1E1833BF22D18F6F5BB5A34A6285 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = Frameworks/frameworks/FirebaseCrash.framework; sourceTree = "<group>"; };
+		4DAE4D7ADACD9E959A9B4140CB69E4D7 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		4EB3EFCAA9D899C11DFAAB49AE1EA98D /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		53EDCAA259FA8CD0BD9F6B4C205A266F /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		5428646738A5DE48CFF0F3727DBC968D /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		54428C0168CFD6218CC909B9E114257E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F1934F35709A2BF833F6509DA0314 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		593A58DC0B57D89DF1643735AE0EAB3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596C1C79E137666ABB99BE40BC700899 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Canvas.modulemap; sourceTree = "<group>"; };
+		5C357690965B72AA288B98D56DE5D5B8 /* Pods-MADCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MADCC.release.xcconfig"; sourceTree = "<group>"; };
+		602814A1F2072313DD249A68FC232A97 /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		61134A10A3C304349AB3ECF98BEFAC8D /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62817BF23953A9E59F5C93D99E0B48ED /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		6EE777121A39D838F0C72C8DCB8C9A9C /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		7101D954A0B60877DB0D2F8579DE7DBE /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		73505681C6191AC970CCBDA7BFDBDBA0 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		73D94A598B1C907159A4E1B38C073C59 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		7C19F6EBBE1943D47C17A58E5E16564A /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		7EB6464C12F42DB7B7BF76CDB6B842A3 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FD7644755C6D05CAFFC9B26F41B89F4 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		860E2F5117E5B30B9B9460CFA1558682 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		9276537604BD5D6806730D1F68ABFE65 /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
+		9344604A1E83CFE980BF8A8BBD395AD0 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EC5449C3BE5C3E3984B9C30F6A8BFF /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		967494A57FCC8A8553F25BFD2AD6D42C /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		9BF5874F1F19AEC8D5C3FA43DDBD03AE /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		9F41C0380C9116B13E7C915396F6FA92 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A0E2757AB881B277B4A0B4E39A374E66 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		A194C6DF7A46FCCD3E6F480CF9C64462 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		A424C18DB4907B3C7C7F2A341A382902 /* Pods-MADCC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MADCC-resources.sh"; sourceTree = "<group>"; };
+		A44780C70EE3506EF502B31281C70D5E /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		A46BD1160566DDDA694E15A4956874C1 /* Pods-MADCC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MADCC-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8BE946918CF75A87CD0C6A3D54CEADF /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		AC526FC5470D9E2A93F5A33554106BD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0799E4A9112C83DF3112D61DB4154C4 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		B87B696B94C0FB28072F2CB05E6205AD /* Pods-MADCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MADCC.debug.xcconfig"; sourceTree = "<group>"; };
+		BA78E3CFB062D06E4B14CA19F18BBB98 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		BC3BB865BFDE6AA195260585D11C13C8 /* Pods_MADCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MADCC.framework; path = "Pods-MADCC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA7459865A29B04BA3E5B9F76449C6 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		BE45BDDC7ECFB2F297C3F5EFE1956692 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		BF0D176F750787D98129B6533DAF58F3 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		C51488BD07862C11B57D20FDC8FDF1B9 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		CE75262C5A9ACD6C79E023C44B57E679 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		D9A562C93752D2D3BE87C11C0B0A80EE /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		DAEA73E0C87CA1650EB4691BC749705A /* Pods-MADCC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MADCC-umbrella.h"; sourceTree = "<group>"; };
+		DDC28F41E0102828A11392F171B6D8D8 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		DF9379EF817D498920D27679A44BCB74 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		E8F24CE66EE54BB116426C280D45D832 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		EA9B05CD4842152E696F9C6707534EC4 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		EB81F0BFC16CBD837020A974EED17CA5 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C7AC298897219234490EA7FA3770A7 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		F5DF8F2372273CB109A2EE7BEB817A8C /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		F6FC2DE742F4361C8A6FE71EAB556D88 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		FC3A18544AA35707CF909A3F65D1F8C7 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		FF919B077B3A2F383C2BFBD3AEB0FC73 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FE70A37D21D6DBB2574F221FE6DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6AE2F2F692CF9F87A0B571E7DF2B52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831E63CD7EDCB19E09A0EF56CB5321AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0DD4DFF5BF90CFEFB3A985B2F2D453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB10056CB2F37091BD3C8035025B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC6E750F4551FF7FABCDCA5AB98DC8E /* Foundation.framework in Frameworks */,
+				22AA150ED9B7E30BDAB3DA9E1A3C388F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8177C9C855257D6F67D3FD2FA4CBB6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2EC3F32DAD8DF599B7F69E8A408090 /* Pods-MADCC */ = {
+			isa = PBXGroup;
+			children = (
+				2F8923F9811D7B33B4CFC7ED026ED8AF /* Info.plist */,
+				1219B45B665FBA0BE9C2379C9FD758B0 /* Pods-MADCC.modulemap */,
+				06CCF1932694B632796BC69A834E2EAC /* Pods-MADCC-acknowledgements.markdown */,
+				A46BD1160566DDDA694E15A4956874C1 /* Pods-MADCC-acknowledgements.plist */,
+				0FE244CD657BCFDA3AB38667C7551E88 /* Pods-MADCC-dummy.m */,
+				2710B8BE8017E62A44A6607E39728231 /* Pods-MADCC-frameworks.sh */,
+				A424C18DB4907B3C7C7F2A341A382902 /* Pods-MADCC-resources.sh */,
+				DAEA73E0C87CA1650EB4691BC749705A /* Pods-MADCC-umbrella.h */,
+				B87B696B94C0FB28072F2CB05E6205AD /* Pods-MADCC.debug.xcconfig */,
+				5C357690965B72AA288B98D56DE5D5B8 /* Pods-MADCC.release.xcconfig */,
+			);
+			name = "Pods-MADCC";
+			path = "Target Support Files/Pods-MADCC";
+			sourceTree = "<group>";
+		};
+		180D1B21E8224B80B588E755195BBA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E19B6AA0AC600B7EC332ADA671361CD /* Canvas.framework */,
+				BC3BB865BFDE6AA195260585D11C13C8 /* Pods_MADCC.framework */,
+				EB81F0BFC16CBD837020A974EED17CA5 /* RAMAnimatedTabBarController.framework */,
+				9344604A1E83CFE980BF8A8BBD395AD0 /* SwiftSpinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C384E1D86DDF53BBE92D36E52920EF /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4321E9EAC3935592B2078D1CD2930137 /* Frameworks */,
+			);
+			name = GoogleIPhoneUtilities;
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		2913A9FA75D0891014B0D039C97E01D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479C1E1833BF22D18F6F5BB5A34A6285 /* FirebaseCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B86DD552C174B9414C340D0FB730F0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				596C1C79E137666ABB99BE40BC700899 /* Canvas.modulemap */,
+				0E9B6FB832B8915ABBDCF561BC720976 /* Canvas.xcconfig */,
+				A0E2757AB881B277B4A0B4E39A374E66 /* Canvas-dummy.m */,
+				A44780C70EE3506EF502B31281C70D5E /* Canvas-prefix.pch */,
+				602814A1F2072313DD249A68FC232A97 /* Canvas-umbrella.h */,
+				54428C0168CFD6218CC909B9E114257E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		4321E9EAC3935592B2078D1CD2930137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576F1934F35709A2BF833F6509DA0314 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E6496BA5B07B17606F4D6086943F87 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				651B16E03F5CB810ACD29AFFC7A1184E /* Frameworks */,
+				78FCAC245A8F87B77CF7AFFD4F62EBCB /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		56545818E657580B8C9C8F54E9A87E02 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				1588F848ADBAE7C3467C1ECEDE5F356B /* FIRInstanceID.h */,
+				EEBC42DE74C4C0B61898C56E0F82847D /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		56862C6BAA309A5EDAAFF82AA7C3035A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DA7917F2763DC8373A5A8868157D8FD5 /* Analytics */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		576AEFDCD9151925C565D9A0F31B7655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB39CBBF6372D8FFED1B8AC844FBA2 /* Canvas */,
+				B337759CDA911F6CB6C6AFB3DFBB28F3 /* Fabric */,
+				56862C6BAA309A5EDAAFF82AA7C3035A /* Firebase */,
+				8BB8A22567EF961BD4A8B65510736FF4 /* FirebaseAnalytics */,
+				6B952F2F9BDB63500DF893B4D6887CDD /* FirebaseCrash */,
+				56545818E657580B8C9C8F54E9A87E02 /* FirebaseInstanceID */,
+				6ECD548B8E18C96EF76A2D86A3E0CA5E /* FirebaseMessaging */,
+				F93002ED4A0CEC0356CF5FEED353A2EB /* GoogleInterchangeUtilities */,
+				25C384E1D86DDF53BBE92D36E52920EF /* GoogleIPhoneUtilities */,
+				9E22F642EBFE1CAC1697EFBE5D32F9B4 /* GoogleSymbolUtilities */,
+				B5B46FDE5EA7A47FE39374920C7B8C97 /* GoogleUtilities */,
+				6FEB6561E4167AD42661CF9555772A8F /* RAMAnimatedTabBarController */,
+				6184FF66B73C02AB882D87AF8BEAF810 /* SwiftSpinner */,
+				B006A6C965EC8679E009025C6D4714DB /* TwitterCore */,
+				55E6496BA5B07B17606F4D6086943F87 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6184FF66B73C02AB882D87AF8BEAF810 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				73505681C6191AC970CCBDA7BFDBDBA0 /* SwiftSpinner.h */,
+				097717A2907113F004042C5CF74C903F /* SwiftSpinner.swift */,
+				D903E8F2EE5292B257361B68B933C6F4 /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		651B16E03F5CB810ACD29AFFC7A1184E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFBBC7A547CC022F09850AEF2001234 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BF325F7E745B50A2935D409776DE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167D7482DD2840DEB817FBF49DDD1B29 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B952F2F9BDB63500DF893B4D6887CDD /* FirebaseCrash */ = {
+			isa = PBXGroup;
+			children = (
+				2913A9FA75D0891014B0D039C97E01D8 /* Frameworks */,
+			);
+			name = FirebaseCrash;
+			path = FirebaseCrash;
+			sourceTree = "<group>";
+		};
+		6ECD548B8E18C96EF76A2D86A3E0CA5E /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				9276537604BD5D6806730D1F68ABFE65 /* FIRMessaging.h */,
+				F21A04833E8B9EDA8FC7D0712FF7674F /* Frameworks */,
+			);
+			name = FirebaseMessaging;
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		6FEB6561E4167AD42661CF9555772A8F /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				BA78E3CFB062D06E4B14CA19F18BBB98 /* RAMAnimatedTabBarController.swift */,
+				FF919B077B3A2F383C2BFBD3AEB0FC73 /* RAMBadge.swift */,
+				1F0115FEEB86A68AFF5E548A8E6D8C6B /* RAMBounceAnimation.swift */,
+				A8BE946918CF75A87CD0C6A3D54CEADF /* RAMFrameItemAnimation.swift */,
+				BDAA7459865A29B04BA3E5B9F76449C6 /* RAMFumeAnimation.swift */,
+				2A09396E1BD89A9C0CB215D12FD810EA /* RAMItemAnimationProtocol.swift */,
+				95EC5449C3BE5C3E3984B9C30F6A8BFF /* RAMRotationAnimation.swift */,
+				2C357F2436B32D1338575DB4E4C5B73B /* RAMTransitionItemAnimations.swift */,
+				789EFCE9B2625295B8FDAC85F1B2AFD4 /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		70852991B4E9535D5D98982181502E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F41C0380C9116B13E7C915396F6FA92 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789EFCE9B2625295B8FDAC85F1B2AFD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				593A58DC0B57D89DF1643735AE0EAB3E /* Info.plist */,
+				F5DF8F2372273CB109A2EE7BEB817A8C /* RAMAnimatedTabBarController.modulemap */,
+				7FD7644755C6D05CAFFC9B26F41B89F4 /* RAMAnimatedTabBarController.xcconfig */,
+				DF9379EF817D498920D27679A44BCB74 /* RAMAnimatedTabBarController-dummy.m */,
+				7101D954A0B60877DB0D2F8579DE7DBE /* RAMAnimatedTabBarController-prefix.pch */,
+				17708E53D8F8721038912F14DE928ADA /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		78FCAC245A8F87B77CF7AFFD4F62EBCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF0D176F750787D98129B6533DAF58F3 /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				576AEFDCD9151925C565D9A0F31B7655 /* Pods */,
+				180D1B21E8224B80B588E755195BBA0F /* Products */,
+				7F9DF9888D0ED34A3B64F5B543D52D78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9DF9888D0ED34A3B64F5B543D52D78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EC3F32DAD8DF599B7F69E8A408090 /* Pods-MADCC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BB8A22567EF961BD4A8B65510736FF4 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9E7A8B8346E882FA1E1F821A6A118 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		9E22F642EBFE1CAC1697EFBE5D32F9B4 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				70852991B4E9535D5D98982181502E15 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		B006A6C965EC8679E009025C6D4714DB /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				67BF325F7E745B50A2935D409776DE01 /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		B337759CDA911F6CB6C6AFB3DFBB28F3 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				A194C6DF7A46FCCD3E6F480CF9C64462 /* FABAttributes.h */,
+				2714B97B01BF0BEC3B36352E421C1638 /* Fabric.h */,
+				B87BDF7ECA1A54C60A494B5C524EC575 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		B5B46FDE5EA7A47FE39374920C7B8C97 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D070A4EB65B81B727E7A739668CF9373 /* Frameworks */,
+			);
+			name = GoogleUtilities;
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		B87BDF7ECA1A54C60A494B5C524EC575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62817BF23953A9E59F5C93D99E0B48ED /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8E9E7A8B8346E882FA1E1F821A6A118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CFA3DF1452CF3F626AB87F4DC72242C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D070A4EB65B81B727E7A739668CF9373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6FC2DE742F4361C8A6FE71EAB556D88 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DB39CBBF6372D8FFED1B8AC844FBA2 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				4DAE4D7ADACD9E959A9B4140CB69E4D7 /* Canvas.h */,
+				2335F39407B2217D88AC621EAAAE96AE /* CSAnimation.h */,
+				5428646738A5DE48CFF0F3727DBC968D /* CSAnimation.m */,
+				E8F24CE66EE54BB116426C280D45D832 /* CSAnimationView.h */,
+				0D5945B3518D839F18A764A6EAA075D5 /* CSAnimationView.m */,
+				EA9B05CD4842152E696F9C6707534EC4 /* CSBlurView.h */,
+				73D94A598B1C907159A4E1B38C073C59 /* CSBlurView.m */,
+				7C19F6EBBE1943D47C17A58E5E16564A /* CSNavigationController.h */,
+				9BF5874F1F19AEC8D5C3FA43DDBD03AE /* CSNavigationController.m */,
+				03B5C008D93D8D53EFFBFA0C93A3B6B3 /* UIButton+TCCustomFont.h */,
+				371B1B5D32995B4B9E23C813ACC34051 /* UIButton+TCCustomFont.m */,
+				B0799E4A9112C83DF3112D61DB4154C4 /* UILabel+TCCustomFont.h */,
+				4EB3EFCAA9D899C11DFAAB49AE1EA98D /* UILabel+TCCustomFont.m */,
+				61134A10A3C304349AB3ECF98BEFAC8D /* UINavigationBar+TCCustomFont.h */,
+				53EDCAA259FA8CD0BD9F6B4C205A266F /* UINavigationBar+TCCustomFont.m */,
+				3A59A03D7B02FFC89FEC5C6EC1B25A0F /* UITextField+PlaceholderColor.h */,
+				F4C7AC298897219234490EA7FA3770A7 /* UITextField+PlaceholderColor.m */,
+				860E2F5117E5B30B9B9460CFA1558682 /* UITextField+TCCustomFont.h */,
+				D9A562C93752D2D3BE87C11C0B0A80EE /* UITextField+TCCustomFont.m */,
+				BE45BDDC7ECFB2F297C3F5EFE1956692 /* UITextView+TCCustomFont.h */,
+				967494A57FCC8A8553F25BFD2AD6D42C /* UITextView+TCCustomFont.m */,
+				3B86DD552C174B9414C340D0FB730F0A /* Support Files */,
+			);
+			name = Canvas;
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		D903E8F2EE5292B257361B68B933C6F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC526FC5470D9E2A93F5A33554106BD8 /* Info.plist */,
+				2850DD525E6A2F90915CCD522A8E0E64 /* SwiftSpinner.modulemap */,
+				CE75262C5A9ACD6C79E023C44B57E679 /* SwiftSpinner.xcconfig */,
+				7EB6464C12F42DB7B7BF76CDB6B842A3 /* SwiftSpinner-dummy.m */,
+				FC3A18544AA35707CF909A3F65D1F8C7 /* SwiftSpinner-prefix.pch */,
+				197BBC070D94EA268749A65BADB7C664 /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		DA7917F2763DC8373A5A8868157D8FD5 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				DDC28F41E0102828A11392F171B6D8D8 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		E53636943E29FEB2CBED225BC1983394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE777121A39D838F0C72C8DCB8C9A9C /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEBC42DE74C4C0B61898C56E0F82847D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51488BD07862C11B57D20FDC8FDF1B9 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21A04833E8B9EDA8FC7D0712FF7674F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				467369EF5AB8A2E7526913AE0AD69C57 /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F93002ED4A0CEC0356CF5FEED353A2EB /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E53636943E29FEB2CBED225BC1983394 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		479161BC0CB472A7D97F0C83538AEA1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B96D78C0EC6E9B734C29F1EB10F479A /* Pods-MADCC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E726B31B30A3EFBD8C5F5839CF291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */,
+				040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */,
+				0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */,
+				F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */,
+				4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */,
+				B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */,
+				E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */,
+				9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */,
+				DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */,
+				CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */,
+				54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */,
+				D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD9A4BC863AE272E69B5D3BB54A20E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45423C1A8B7354EC1EE0A1BE17675E7D /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68884572B85D910A4ED735E96A11384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD162269F522359594A971CDEDB91C49 /* SwiftSpinner-umbrella.h in Headers */,
+				FCE6F965F9B582257167246431B2A949 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		639F9C248EDB5723A10E11BF49E70283 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1BF7A250A71C0EB0564380F6BADB40 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				A9AECFB86F4E1B17DB49194552929EFE /* Sources */,
+				831E63CD7EDCB19E09A0EF56CB5321AE /* Frameworks */,
+				CFD9A4BC863AE272E69B5D3BB54A20E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = EB81F0BFC16CBD837020A974EED17CA5 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8301AC88ECCE71344717B356075A904E /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6917AD3EA03C01876A59E482A50FD02 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				500BF72FF0D08F37295B6F5135EAFC39 /* Sources */,
+				C2BB10056CB2F37091BD3C8035025B92 /* Frameworks */,
+				F68884572B85D910A4ED735E96A11384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 9344604A1E83CFE980BF8A8BBD395AD0 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				B24125255171B4E465A02155C472B6AF /* Sources */,
+				EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */,
+				840E726B31B30A3EFBD8C5F5839CF291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 1E19B6AA0AC600B7EC332ADA671361CD /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF97A45DEC5AF6F55B3CA66654156C1F /* Pods-MADCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B0E1C44CFA0A01A087D4C27171A1BA /* Build configuration list for PBXNativeTarget "Pods-MADCC" */;
+			buildPhases = (
+				4C74923A11FFFDF84375796058A447A6 /* Sources */,
+				51FE70A37D21D6DBB2574F221FE6DA1A /* Frameworks */,
+				479161BC0CB472A7D97F0C83538AEA1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E81DBBA67BB78081DD15A349FB2440 /* PBXTargetDependency */,
+				0EBB8DAE789DDF62A073F4ADC8803416 /* PBXTargetDependency */,
+				C1F7099FD0718A8696CFABA9A9730C71 /* PBXTargetDependency */,
+			);
+			name = "Pods-MADCC";
+			productName = "Pods-MADCC";
+			productReference = BC3BB865BFDE6AA195260585D11C13C8 /* Pods_MADCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 180D1B21E8224B80B588E755195BBA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */,
+				FF97A45DEC5AF6F55B3CA66654156C1F /* Pods-MADCC */,
+				639F9C248EDB5723A10E11BF49E70283 /* RAMAnimatedTabBarController */,
+				8301AC88ECCE71344717B356075A904E /* SwiftSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C74923A11FFFDF84375796058A447A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EECF5111EFED74BFA259C4E91F23F /* Pods-MADCC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500BF72FF0D08F37295B6F5135EAFC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B8853EE33880DF210FC76D3BAE2F7F /* SwiftSpinner-dummy.m in Sources */,
+				7AA364669CD2579D221BC924EE316041 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AECFB86F4E1B17DB49194552929EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD91C0A6411AE4C0C1CDB2D5C6D25AA3 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				E3EC04CE9EC490DA73604B70C5F2EF98 /* RAMAnimatedTabBarController.swift in Sources */,
+				F2C1C3CF7C8BBCE724349FEABBCF824F /* RAMBadge.swift in Sources */,
+				2224645A7E0042C9FF5E0EEBF4FC16D4 /* RAMBounceAnimation.swift in Sources */,
+				BEDC28028D2CCF4EAEF03ABB425A7E50 /* RAMFrameItemAnimation.swift in Sources */,
+				A102D40FB580C861EA33DA6706C3930B /* RAMFumeAnimation.swift in Sources */,
+				B204938BA180FDE600A6D6673A346A3B /* RAMItemAnimationProtocol.swift in Sources */,
+				99128AF804D18935EEA84E582F66976D /* RAMRotationAnimation.swift in Sources */,
+				0AE2ADEE5E614C0951963B302350EA7E /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24125255171B4E465A02155C472B6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */,
+				D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */,
+				3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */,
+				B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */,
+				6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */,
+				5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */,
+				BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */,
+				146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */,
+				1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */,
+				722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */,
+				3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EBB8DAE789DDF62A073F4ADC8803416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 639F9C248EDB5723A10E11BF49E70283 /* RAMAnimatedTabBarController */;
+			targetProxy = EBA9DE760D2299C850B92C2B40C4D879 /* PBXContainerItemProxy */;
+		};
+		C1F7099FD0718A8696CFABA9A9730C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = 8301AC88ECCE71344717B356075A904E /* SwiftSpinner */;
+			targetProxy = C0C3D6242D232A96CD2439AC74D0B5C7 /* PBXContainerItemProxy */;
+		};
+		E5E81DBBA67BB78081DD15A349FB2440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */;
+			targetProxy = 0DA5F5FFA40B9D66C4D9A9F79265A10F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17FC2A64717CB2C2A78AC56F471531FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD7644755C6D05CAFFC9B26F41B89F4 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52F720B71E9BC1B5ABC603A597652136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE75262C5A9ACD6C79E023C44B57E679 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7947473607812783D70A58DFF2FB6764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87B696B94C0FB28072F2CB05E6205AD /* Pods-MADCC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MADCC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MADCC/Pods-MADCC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MADCC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A8173FF6D49E5A3EFD67A2C2C6130E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9B6FB832B8915ABBDCF561BC720976 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A7ACCBC4FB67D111E52A4CCC5C400AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE75262C5A9ACD6C79E023C44B57E679 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CC234E554A95852EC6E49C5AC69B404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C357690965B72AA288B98D56DE5D5B8 /* Pods-MADCC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MADCC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MADCC/Pods-MADCC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MADCC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4F28C20BEA0F4F7633915D035CEF0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD7644755C6D05CAFFC9B26F41B89F4 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B6F108C89AD1CB0DA28A0E294631D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9B6FB832B8915ABBDCF561BC720976 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B0E1C44CFA0A01A087D4C27171A1BA /* Build configuration list for PBXNativeTarget "Pods-MADCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7947473607812783D70A58DFF2FB6764 /* Debug */,
+				9CC234E554A95852EC6E49C5AC69B404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8173FF6D49E5A3EFD67A2C2C6130E5 /* Debug */,
+				C7B6F108C89AD1CB0DA28A0E294631D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1BF7A250A71C0EB0564380F6BADB40 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FC2A64717CB2C2A78AC56F471531FD /* Debug */,
+				B4F28C20BEA0F4F7633915D035CEF0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6917AD3EA03C01876A59E482A50FD02 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7ACCBC4FB67D111E52A4CCC5C400AB /* Debug */,
+				52F720B71E9BC1B5ABC603A597652136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Canvas.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MADCC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RAMAnimatedTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftSpinner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>639F9C248EDB5723A10E11BF49E70283</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8301AC88ECCE71344717B356075A904E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6497E6E7D485D7D0D7E0CD8E84BFCD4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF97A45DEC5AF6F55B3CA66654156C1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
